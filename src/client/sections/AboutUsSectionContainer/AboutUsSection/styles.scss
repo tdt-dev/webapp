@@ -1,0 +1,36 @@
+.about-us-container {
+  position: relative;
+
+  .about-us-body {
+    padding-top: 30px;
+  }
+
+  p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    text-align: justify;
+  }
+
+  .disclaimer {
+    font-size: 16px;
+    font-weight: 300;
+    font-style: italic;
+    color: #595757;
+  }
+
+  .left-border {
+    background-color: #f1f0f2;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 70px;
+    z-index: -1;
+  }
+}
+
+@media only screen and (max-width: 1400px) {
+  .about-us-container .left-border {
+    display: none;
+  }
+}

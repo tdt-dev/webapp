@@ -1,0 +1,117 @@
+.search-item-component-container {
+  box-shadow: 0 2px 0 0 rgba(0, 0, 0, 0.12);
+  color: black;
+
+  img {
+    animation-duration: 0.5s;
+    animation-name: fadeout;
+  }
+
+  @keyframes fadeout {
+    from {
+      -webkit-filter: sepia(1);
+      filter: sepia(1);
+    }
+
+    to {
+      -webkit-filter: sepia(0);
+      filter: sepia(0);
+    }
+  }
+
+  .title {
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 26px;
+    font-weight: bold;
+    padding: 10px 10px 0;
+    text-transform: uppercase;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .actors, .studio {
+    color: #000000;
+    font-family: 'Inconsolata', monospace;
+    font-size: 14px;
+    padding: 0 15px 5px;
+  }
+
+  .additional-info {
+    color: #9b9b9b;
+    font-family: 'Inconsolata', monospace;
+    font-size: 12px;
+    padding: 0 15px 10px;
+
+    span:first-child {
+      border-right: 1px solid darkgoldenrod;
+      margin-right: 20px;
+      padding-right: 20px;
+    }
+
+    span:last-child {
+      border-left: 1px solid darkgoldenrod;
+      margin-left: 20px;
+      padding-left: 20px;
+    }
+  }
+
+  .additional-info-two-items {
+    color: #9b9b9b;
+    font-family: 'Inconsolata', monospace;
+    font-size: 12px;
+    padding: 0 15px 10px;
+
+    span:first-child {
+      border-right: 1px solid darkgoldenrod;
+      margin-right: 20px;
+      padding-right: 20px;
+    }
+  }
+
+  .description {
+    color: black;
+    font-size: 12px;
+    padding: 0 15px;
+  }
+
+  .rating-component {
+    .rating-box {
+      position: absolute;
+      right: 20px;
+      top: 20px;
+    }
+  }
+}
+
+.search-item-component-container:hover {
+  img {
+    animation-duration: 0.5s;
+    animation-name: fadein;
+
+    -webkit-filter: sepia(1);
+    filter: sepia(1);
+  }
+
+  @keyframes fadein {
+    from {
+      -webkit-filter: sepia(0);
+      filter: sepia(0);
+    }
+
+    to {
+      -webkit-filter: sepia(1);
+      filter: sepia(1);
+    }
+  }
+
+  .title, .actors, .studio, .description {
+    color: black;
+  }
+
+  .additional-info {
+    color: #9b9b9b;
+  }
+}

@@ -1,0 +1,3 @@
+apps:
+  - script   : './dist/server/app.js'
+    name     : 'WEBAPP'

@@ -1,0 +1,165 @@
+.final-step-container {
+  box-shadow: 0 1px 12px 0 rgba(0, 0, 0, 0.2);
+  padding: 40px;
+  position: relative;
+
+  .final-step-label {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 26px;
+    font-weight: 900;
+    color: #000000;
+  }
+
+  .users-rating-block {
+    margin-top: 20px;
+
+    .final-step-label {
+      text-align: center;
+    }
+
+    .rating-component {
+      .rating-box {
+        font-size: 94px;
+        margin: 20px auto;
+        height: 142px;
+        width: 142px;
+      }
+    }
+  }
+
+  .social-block {
+    background-color: #ffffff;
+    box-shadow: 0 1px 12px 0 rgba(0, 0, 0, 0.2);
+    padding: 50px 15px;
+    height: 318px;
+
+    .social-links-container {
+      width: 357px;
+      margin-top: 26px;
+    }
+
+    .social-label {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 30px;
+      font-weight: bold;
+      text-align: center;
+      text-decoration: underline #f8e71c;
+    }
+
+    a {
+      font-size: 100px;
+      color: black;
+      margin: 0 50px;
+    }
+  }
+
+  .review-block {
+    margin-top: 65px;
+
+    textarea {
+      width: 100%;
+      height: 105px;
+      border-radius: 8px;
+      border: solid 1px #979797;
+      margin-top: 10px;
+
+      &::placeholder {
+        color: #7a7a7a;
+        font-style: italic;
+      }
+    }
+  }
+
+  .title {
+    color: #534ac5;
+    text-transform: uppercase;
+  }
+
+  .navigation {
+    margin-top: 30px;
+    padding-bottom: 40px;
+
+    button {
+      background-color: #501fc7;
+      border-radius: 0;
+      border: none;
+      color: #ffffff;
+      font-family: 'Karla', sans-serif;
+      font-size: 22px;
+      height: 60px;
+      text-align: center;
+      text-transform: uppercase;
+      width: 170px;
+    }
+
+    button:disabled {
+      background-color: #c8c8c8;
+    }
+
+    .next-button {
+      float: right;
+    }
+  }
+
+  .sign-out {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    font-size: 30px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .final-step-container {
+    padding: 20px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .final-step-container {
+    margin-bottom: 45px;
+    padding-top: 35px;
+
+    .users-rating-block {
+      margin-top: 0;
+    }
+
+    .final-step-label {
+      font-size: 21px;
+      text-align: center;
+    }
+
+    .social-block {
+      background-color: #ffffff;
+      box-shadow: 0 1px 12px 0 rgba(0, 0, 0, 0.2);
+      padding: 15px;
+      height: auto;
+
+      .social-links-container {
+        width: 66vw;
+      }
+
+      .social-label {
+        font-size: 26px;
+      }
+
+      a {
+        font-size: 19vw;
+        margin: 0 9vw;
+      }
+    }
+
+    .review-block {
+      margin-top: 15px;
+    }
+
+    .navigation {
+      margin-top: 20px;
+      padding-bottom: 40px;
+
+      button {
+        width: 100%;
+      }
+    }
+  }
+}

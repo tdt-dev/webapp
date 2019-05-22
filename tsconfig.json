@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist/",
+    "sourceMap": true,
+    "noImplicitAny": true,
+    "module": "commonjs",
+    "target": "ES5",
+    "jsx": "react",
+    "rootDir": "./src",
+    "baseUrl": "./src",
+    "lib": [ "es2015", "dom" ],
+    "paths": {
+      "GlobalComponents/*": ["./client/components/*"]
+    }
+  },
+  "include": [
+    "./src/**/*"
+  ]
+}

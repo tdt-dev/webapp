@@ -1,0 +1,95 @@
+.recent-ratings-item-container {
+  margin-left: 15px;
+  padding-bottom: 20px;
+  border-bottom: solid 3px #ffffff;
+
+  &:hover {
+    border-bottom: solid 3px #f8e81c;
+  }
+
+  img {
+    animation-duration: 0.5s;
+    animation-name: fadeout;
+    width: 100%;
+  }
+
+  @keyframes fadeout {
+    from {
+      -webkit-filter: sepia(1);
+      filter: sepia(1);
+    }
+
+    to {
+      -webkit-filter: sepia(0);
+      filter: sepia(0);
+    }
+  }
+
+  .title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 26px;
+    font-weight: 900;
+    text-align: left;
+    color: black;
+    text-transform: uppercase;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .genre {
+    font-family: 'Inconsolata', monospace;
+    font-size: 20px;
+    text-align: left;
+    color: #9b9b9b;
+  }
+
+  .rating-component {
+    .rating-box {
+      position: absolute;
+      right: 20px;
+      top: 20px;
+    }
+  }
+}
+
+.recent-ratings-item-container:hover {
+  img {
+    animation-duration: 0.5s;
+    animation-name: fadein;
+
+    -webkit-filter: sepia(1);
+    filter: sepia(1);
+  }
+
+  @keyframes fadein {
+    from {
+      -webkit-filter: sepia(0);
+      filter: sepia(0);
+    }
+
+    to {
+      -webkit-filter: sepia(1);
+      filter: sepia(1);
+    }
+  }
+
+  .title {
+    color: #501fc7;
+
+  }
+
+  .genre {
+    color: black;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .recent-ratings-item-container {
+    padding-left: 0;
+    margin-left: 0.9375rem;
+    margin-right: 0.9375rem;
+    margin-bottom: 20px;
+  }
+}

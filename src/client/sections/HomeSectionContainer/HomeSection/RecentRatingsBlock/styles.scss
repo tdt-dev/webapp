@@ -1,0 +1,46 @@
+.recent-ratings-block-container {
+  background-color: #f1f0f2;
+
+  .grid-container {
+    margin-left: 70px;
+    padding-left: 45px;
+    background-color: white;
+    padding-bottom: 10px;
+  }
+
+  h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 48px;
+    font-weight: 900;
+    letter-spacing: 0.6px;
+    text-align: left;
+    color: #000000;
+    padding-left: 15px;
+    margin-top: 25px;
+  }
+
+  .space {
+    height: 30px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .recent-ratings-block-container {
+    .grid-container {
+      margin-left: 0;
+      padding-left: 0;
+      background-color: white;
+      padding-bottom: 10px;
+    }
+
+    h2 {
+      margin-top: 20px;
+      font-size: 38px;
+    }
+
+    .space {
+      background-color: #f1f0f2;
+      margin: 10px 0;
+    }
+  }
+}

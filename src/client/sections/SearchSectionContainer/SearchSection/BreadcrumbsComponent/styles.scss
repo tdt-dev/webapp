@@ -1,0 +1,39 @@
+.breadcrumbs-container {
+  margin: 35px 0;
+
+  .tdt-breadcrumbs {
+    float: right;
+
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+
+    color: #000000;
+  }
+
+  .clickable {
+    position: relative;
+    cursor: pointer;
+    min-width: 150px;
+  }
+
+  .breadcrumbs-dropdown {
+    position: absolute;
+    z-index: 1;
+  }
+
+  .fa-sort-desc {
+    vertical-align: text-top;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .breadcrumbs-container {
+    margin: 15px 0;
+
+    .tdt-breadcrumbs {
+      font-family: "Montserrat", sans-serif;
+      font-size: 7vw;
+      color: #000000;
+    }
+  }
+}

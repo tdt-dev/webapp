@@ -1,0 +1,210 @@
+.detailed-info-component-container {
+  margin-top: 35px;
+
+  .info {
+    .title {
+      color: #000000;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 35px;
+      font-weight: 900;
+      letter-spacing: 0.5px;
+      text-align: left;
+    }
+
+    .box-office {
+      color: #000000;
+      font-family: 'Karla', sans-serif;
+      font-size: 30px;
+      letter-spacing: 0.5px;
+      margin-bottom: 5px;
+      text-align: left;
+    }
+
+    .date-genre-studio {
+      color: #000000;
+      font-family: 'Inconsolata', monospace;
+      font-size: 20px;
+      letter-spacing: 0.5px;
+      text-align: left;
+
+      span:first-child {
+        border-right: 1px solid black;
+        margin-right: 10px;
+        padding-right: 10px;
+      }
+
+      span:last-child {
+        border-left: 1px solid black;
+        margin-left: 10px;
+        padding-left: 10px;
+      }
+    }
+
+    .cast, .crew {
+      .title {
+        color: #000000;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 18px;
+        font-weight: bold;
+        letter-spacing: 0.2px;
+        margin-bottom: 10px;
+        text-align: left;
+      }
+
+      .people {
+        img {
+          border: solid 1px #979797;
+          height: auto;
+          margin-right: 5px;
+          width: 54px;
+        }
+
+        span {
+          color: #000000;
+          font-family: 'Montserrat', sans-serif;
+          font-size: 12px;
+          text-align: left;
+          vertical-align: bottom;
+        }
+      }
+    }
+
+    .crew {
+      margin-top: 15px;
+    }
+
+    .rating {
+      border-bottom: solid 1px WhiteSmoke;
+      color: #000000;
+      font-family: 'Karla', sans-serif;
+      font-size: 18px;
+      padding-bottom: 10px;
+      text-align: left;
+
+      & > div {
+        display: inline-block;
+      }
+
+      .rating-title {
+        color: #000000;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 12px;
+        font-weight: 800;
+        text-align: left;
+        text-transform: uppercase;
+      }
+
+      .rated-by {
+        margin-left: 30px;
+      }
+
+      .user-reviews {
+        margin-left: 90px;
+      }
+
+      .rating-component {
+        .rating-box {
+          box-shadow: none;
+        }
+      }
+    }
+  }
+}
+
+.take-the-test-link-container {
+  display: none;
+}
+
+@media only screen and (max-width: 991px) {
+  .take-the-test-link-container {
+    text-align: center;
+    display: block;
+
+    a {
+      color: #501fc7;
+      font-family: 'Karla', sans-serif;
+      font-size: 20px;
+      font-stretch: normal;
+      font-style: normal;
+      font-weight: bold;
+      letter-spacing: 0.1px;
+      line-height: normal;
+      text-decoration: underline;
+    }
+  }
+
+  .detailed-info-component-container {
+    margin-top: 35px;
+
+    .mobile-info {
+      text-align: right;
+
+      .mobile-rating {
+        margin-bottom: 5vw;
+
+        .rating-component .rating-box {
+          width: 30vw;
+          height: 30vw;
+          font-size: 20vw;
+          float: right;
+        }
+      }
+
+      .box-office {
+        font-family: 'Inconsolata', monospace;
+        font-size: 4vw;
+        font-weight: bold;
+        color: #000000;
+      }
+
+      .mobile-release-date, .mobile-genre, .mobile-co {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 4vw;
+        font-weight: bold;
+        color: #000000;
+      }
+    }
+
+    .mobile-rating-stats {
+      border-radius: 8px;
+      background-color: #501fc7;
+      box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+      padding: 20px;
+      margin: 40px auto 10px;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 4vw;
+      font-weight: bold;
+      color: #ffffff;
+      text-align: center;
+    }
+
+    .mobile-creative {
+      margin-top: 40px;
+    }
+
+    .mobile-cast, .mobile-creative {
+      .section-title {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 36px;
+        font-weight: bold;
+        color: #000000;
+      }
+
+      .people {
+        img {
+          border: solid 1px #979797;
+          height: auto;
+          width: 70px;
+        }
+
+        span {
+          font-family: 'Montserrat', sans-serif;
+          font-size: 12px;
+          color: black;
+          vertical-align: bottom;
+          white-space: nowrap;
+        }
+      }
+    }
+  }
+}

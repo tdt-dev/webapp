@@ -1,0 +1,187 @@
+.the-duvernay-test-component-container {
+  box-shadow: 0 1px 12px 0 rgba(0, 0, 0, 0.2);
+  padding: 0;
+  position: relative;
+
+  .question-header {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+    font-weight: 900;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.4px;
+    text-align: center;
+    color: #5f32cc;
+    text-shadow: 0 2px 2px rgba(0, 0, 0, 0.5);
+    margin-top: 20px;
+    text-transform: uppercase;
+    padding-right: 30px;
+  }
+
+  .sign-out {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    font-size: 30px;
+  }
+
+  .grid-x {
+    padding: 0 85px;
+  }
+
+  .title {
+    color: #0c0c0d;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    line-height: 1.14;
+    margin-top: 20px;
+    text-align: left;
+    text-transform: uppercase;
+
+    .static-part {
+      color: #501fc7;
+      text-transform: none;
+    }
+  }
+
+  .question {
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 26px;
+    font-weight: bold;
+    letter-spacing: 0.3px;
+    margin-top: 20px;
+    text-align: left;
+  }
+
+  .clarification {
+    color: #000000;
+    font-family: 'Karla', sans-serif;
+    font-size: 14px;
+    margin-top: 20px;
+    text-align: left;
+  }
+
+  .options {
+    margin-top: 30px;
+
+    .answer-option {
+      button {
+        background-color: #f0f0f0;
+        border-radius: 0;
+        border: none;
+        color: #030303;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 20px;
+        height: 60px;
+        letter-spacing: 0.2px;
+        margin-bottom: 20px;
+        padding: 0 25px;
+        text-align: left;
+        width: 100%;
+      }
+
+      button.active {
+        background-color: #ffd700;
+      }
+    }
+  }
+
+  .navigation {
+    margin-top: 10px;
+    padding-bottom: 90px;
+
+    button {
+      background-color: #501fc7;
+      border-radius: 0;
+      border: none;
+      color: #ffffff;
+      font-family: 'Karla', sans-serif;
+      font-size: 22px;
+      height: 60px;
+      text-align: center;
+      text-transform: uppercase;
+      width: 170px;
+    }
+
+    button:disabled {
+      background-color: #c8c8c8;
+    }
+
+    .back-button {
+      float: left;
+    }
+
+    .next-button {
+      float: right;
+    }
+  }
+
+  .progress-bar {
+    position: relative;
+    height: 10px;
+    background-color: #501fc7;
+
+    .progress-label {
+      bottom: 15px;
+      color: #000000;
+      font-family: 'Karla', sans-serif;
+      font-size: 10px;
+      font-weight: bold;
+      position: absolute;
+      right: 5px;
+      text-transform: uppercase;
+    }
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .the-duvernay-test-component-container {
+
+    .question-header {
+      margin-top: 10px;
+      font-size: 30px;
+      text-align: left;
+    }
+
+    .grid-x {
+      padding: 0 10px;
+    }
+
+    .title {
+      margin-top: 10px;
+    }
+
+    .clarification {
+      margin-top: 10px;
+    }
+
+    .navigation {
+      margin-top: 10px;
+      padding-bottom: 77px;
+
+      button {
+        width: 120px;
+        height: 50px;
+      }
+    }
+
+    .question {
+      margin-top: 10px;
+      font-size: 19px;
+    }
+
+    .options {
+      margin-top: 10px;
+      .answer-option {
+        button {
+          height: 50px;
+          margin-bottom: 10px;
+        }
+      }
+    }
+  }
+}

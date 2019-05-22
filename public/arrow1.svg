@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="96px" height="305px" viewBox="0 0 96 305" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47 (45396) - http://www.bohemiancoding.com/sketch -->
+    <title>arrow2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M12.1591992,29.767556 C47.3651625,92.6143874 88.1982392,149.472338 133.417048,199.494959 C146.503922,213.859488 159.909989,227.353439 173.316055,240.412101 C175.550399,242.588545 180.019088,243.894411 180.019088,238.235658 C180.019088,232.576904 176.507976,226.91815 173.316055,223.871129 C127.352399,179.471676 85.5382402,128.107604 48.511962,70.2142003 C38.2552786,54.1076707 28.3012406,37.5884174 18.9445443,21.0583242 C29.7332613,27.8289826 41.2487443,32.4359182 53.0823622,34.5385407 C55.4034489,35.0345931 55.2249038,31.5622263 54.5107232,29.5780167 C53.6179976,26.8497284 51.6540011,23.3773616 49.3329143,23.1293354 C33.4423971,20.4010472 18.2660604,13.2082874 4.69662998,1.30302976 C2.91117861,-0.433153646 0.411546691,-0.185127445 0.947182103,3.78329177 C3.08972375,16.1846018 5.23226539,28.5859118 7.37480704,40.9872219 C9.33880355,52.8924795 11.6598903,65.0457634 15.4093382,76.2069424 C16.3020639,78.9352306 18.2660604,82.1595712 20.5871472,82.6556236 C22.908234,83.151676 22.7296888,79.6793092 22.0155083,77.6950996 C18.4446055,67.029973 16.480609,55.8687939 14.6951577,44.4595887 C13.8210094,39.602292 12.989659,34.6855426 12.1591992,29.767556 Z" id="path-1"/>
+        <filter x="-2.8%" y="-2.1%" width="111.2%" height="108.3%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="5" dy="5" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur stdDeviation="2.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"/>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"/>
+        </filter>
+    </defs>
+    <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-Copy" transform="translate(-1175.000000, -1440.000000)" fill-rule="nonzero">
+            <g id="arrow2" transform="translate(1227.240762, 1586.827204) rotate(24.000000) translate(-1227.240762, -1586.827204) translate(1136.740762, 1465.327204)">
+                <g id="Shape">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"/>
+                    <use fill="#F8E71C" fill-rule="evenodd" xlink:href="#path-1"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

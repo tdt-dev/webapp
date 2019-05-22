@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="42px" height="163px" viewBox="0 0 42 163" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47 (45396) - http://www.bohemiancoding.com/sketch -->
+    <title>arrow2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M6.5400148,14.2317652 C25.4760909,44.2786172 47.4387976,71.462206 71.7604389,95.3778475 C78.7994181,102.245479 86.0100798,108.69689 93.2207415,114.940191 C94.4225184,115.980741 96.8260723,116.605072 96.8260723,113.899641 C96.8260723,111.194211 94.9375657,108.48878 93.2207415,107.03201 C68.4984729,85.8047856 46.0080757,61.2478009 26.0929149,33.5691655 C20.5761979,25.8686896 15.2222634,17.9708919 10.1896184,10.0679117 C15.992498,13.30494 22.18628,15.5074999 28.5511758,16.5127564 C29.7996085,16.7499174 29.7035752,15.0897908 29.3194421,14.1411471 C28.8392757,12.836762 27.7829095,11.1766355 26.5344768,11.058055 C17.9875145,9.75366987 9.82468528,6.31483636 2.52615564,0.622974006 C1.56582279,-0.207089255 0.221356802,-0.088508789 0.509456657,1.80877866 C1.66185607,7.73780195 2.81425549,13.6668252 3.96665491,19.5958485 C5.02302104,25.2877109 6.27145375,31.0981537 8.28815273,36.4342747 C8.76831915,37.7386598 9.82468528,39.2802059 11.073118,39.5173668 C12.3215507,39.7545277 12.2255174,38.0944012 11.8413843,37.1457575 C9.92071857,32.0467974 8.86435244,26.7106765 7.90401959,21.2559751 C7.43384531,18.9337184 6.98669054,16.5830375 6.5400148,14.2317652 Z" id="path-1"></path>
+        <filter x="-5.2%" y="-4.3%" width="120.8%" height="117.3%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="5" dy="5" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Mobile-App" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Mobile---Home-Copy" transform="translate(-85.000000, -832.000000)" fill-rule="nonzero">
+            <g id="arrow2" transform="translate(107.434837, 910.605777) rotate(40.000000) translate(-104.434837, -919.605777) translate(55.934837, 861.605777)">
+                <g id="Shape">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#F8E71C" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,151 @@
+.hero-container {
+  .hint-overflow {
+    position: fixed;
+    background-color: rgba(80, 31, 199,.7);
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+
+  .desktop-block {
+    display: block;
+
+    .desktop-arrow-1 {
+      position: absolute;
+      top: 60px;
+      right: 15vw;
+    }
+
+    .desktop-text-1 {
+      position: absolute;
+      right: 2vw;
+      top: 350px;
+
+      font-family: 'Montserrat', sans-serif;
+      font-weight: bold;
+      font-size: 44px;
+      color: #f8e71c;
+      width: 350px;
+    }
+
+    .desktop-arrow-2 {
+      position: absolute;
+      left: 150px;
+      top: 450px;
+    }
+
+    .desktop-arrow-3 {
+      position: absolute;
+      left: 150px;
+      top: 60px;
+    }
+
+    .desktop-text-2 {
+      position: absolute;
+      left: 100px;
+      top: 250px;
+
+      font-family: 'Montserrat', sans-serif;
+      font-weight: bold;
+      font-size: 44px;
+      color: #f8e71c;
+      width: 400px;
+    }
+  }
+
+  .mobile-block {
+    display: none;
+  }
+
+  .desktop-image {
+    display: block;
+  }
+
+  .mobile-image {
+    display: none;
+  }
+
+  button.video-button {
+    width: 100% ;
+    cursor: pointer;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .hero-container {
+    .desktop-block {
+      display: none;
+    }
+
+    .mobile-block {
+      display: block;
+
+      .mobile-text-1 {
+        position: absolute;
+        left: 10px;
+        top: 200px;
+
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+        font-size: 28px;
+        color: #f8e71c;
+        width: 200px;
+      }
+
+      .mobile-arrow-5 {
+        position: absolute;
+        left: 30px;
+        top: 370px;
+      }
+
+      .mobile-arrow-7 {
+        position: absolute;
+        left: 30px;
+        top: 30px;
+      }
+
+      .mobile-arrow-6 {
+        position: absolute;
+        left: 100px;
+        top: 400px;
+        width: 100px;
+      }
+
+      .mobile-text-2 {
+        position: relative;
+        right: 10px;
+        bottom: 0;
+
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+        font-size: 28px;
+        color: #f8e71c;
+        width: 150px;
+        text-align: right;
+      }
+
+      .mobile-arrow-4 {
+        position: relative;
+        left: 80px;
+        bottom: 0;
+      }
+
+      .mobile-right-block {
+        position: absolute;
+        bottom: 20vw;
+        right: 10px;
+      }
+    }
+
+    .mobile-image {
+      display: block;
+    }
+
+    .desktop-image {
+      display: none;
+    }
+
+  }
+}

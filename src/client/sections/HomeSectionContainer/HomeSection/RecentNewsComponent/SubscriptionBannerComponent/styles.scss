@@ -1,0 +1,105 @@
+.subscription-banner-container {
+  background-image: linear-gradient(201deg, #12002a, #501fc7);
+  box-shadow: 2px 1px 5px 3px rgba(4, 4, 4, 0.5);
+  border: solid 1px #979797;
+  padding: 50px 30px;
+
+  .banner-header {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 25px;
+  }
+
+  .banner-subheader {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 38px;
+    font-weight: 300;
+    text-align: center;
+    color: #ffffff;
+  }
+
+  .banner-subscribe-form {
+    input {
+      background-color: #ffffff;
+      border-radius: 8px;
+      border: solid 1px #000000;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 24px;
+      font-weight: 300;
+      margin-bottom: 25px;
+      text-align: center;
+      width: 100%;
+    }
+
+    input::placeholder {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 24px;
+      font-weight: 300;
+      font-style: italic;
+      color: #000000;
+      text-align: center;
+    }
+
+    button {
+      height: 47px;
+      background-color: #5101f7;
+      font-family: 'Karla', sans-serif;
+      font-size: 18px;
+      text-align: center;
+      color: #ffffff;
+      text-transform: uppercase;
+      width: 100%;
+      cursor: pointer;
+    }
+  }
+
+  .banner-quote {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 32px;
+    font-style: italic;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 50px;
+  }
+}
+
+
+@media only screen and (max-width: 991px) {
+  .subscription-banner-container {
+    padding: 50px;
+    box-shadow: none;
+
+    .banner-header {
+      font-size: 5vw;
+    }
+
+    .banner-subheader {
+      font-size: 4vw;
+    }
+
+    .banner-subscribe-form {
+      input {
+        font-size: 4vw;
+        height: 10vw;
+      }
+
+      input::placeholder {
+        font-size: 4vw;
+      }
+
+      button {
+        height: 10vw;
+        font-size: 3.5vw;
+      }
+    }
+
+    .banner-quote {
+      display: none;
+    }
+  }
+}
