@@ -56,7 +56,7 @@ class AboutUsSection extends React.Component<AboutUsSectionProps, {}> {
                             </p>
 
                             <p className='disclaimer'>
-                                The DuVernay Test methodology can be viewed on <a href="https://github.com/theduvernaytest/apiapp/blob/master/src/services/ratingService.ts#L33-L50" target="_blank">GitHub</a>.
+                                The DuVernay Test methodology can be viewed on <a href="https://github.com/theduvernaytest/apiapp/blob/master/src/services/abstractRatingService.ts" target="_blank">GitHub</a>.
                             </p>
 
                             <p className='disclaimer'>
