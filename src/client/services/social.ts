@@ -34,12 +34,13 @@ export function generateFacebookSharingUrl(pageUrl: string, title: string, descr
 
 export function generateTwitterSharingUrl(pageUrl: string, description: string) {
     const encodedPageUrl = encodeURIComponent(pageUrl);
+    const encodedDescription = encodeURIComponent(description);
 
     const TWITTER_SHARE_URL = 'https://twitter.com/share';
 
     const params = {
         'url': encodedPageUrl,
-        'text': description,
+        'text': encodedDescription,
         'via': 'DuVernayTestOrg'
     };
 

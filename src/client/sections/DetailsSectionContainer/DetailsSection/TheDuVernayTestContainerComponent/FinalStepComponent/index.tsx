@@ -68,7 +68,7 @@ class FinalStepComponent extends React.Component<FinalStepComponentProps, FinalS
 
         const twitterUrl = generateTwitterSharingUrl(
             window.location.href,
-            `Take The DuVernay Test for ${this.props.title} -- rate it based on racial representation!`
+            `Take The #DuVernayTest for ${this.props.title} -- rate it based on racial representation!`
         );
 
         return (
